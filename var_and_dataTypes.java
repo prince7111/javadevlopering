@@ -20,6 +20,15 @@ public class var_and_dataTypes {
          int side = sc.nextInt();
          int AreaofSuare = side*side; //area of suare fromula : side*side;
          System.out.println("the area of square is="+AreaofSuare);
+         //Q.3 calculate bill and add gst 18%
+         int pen =3;
+         int pencile = 5;
+         int eraser =5;
+         int bill = pen+pencile+eraser;
+         float gstCal = bill*0.18f;
+         float finalBill = bill+gstCal;
+         System.out.println("your final bill + 0.18 gst is="+finalBill);
+        
 
     
 
