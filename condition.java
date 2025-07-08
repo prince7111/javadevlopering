@@ -11,6 +11,15 @@ public class condition {
         }else{
             System.out.println("You Not Have Fever");
         }
+        //Q.2 positive or negetive
+        int number =0;
+        if(number>0){
+            System.out.println("it is positive number");
+        }else if(number < 0){
+            System.out.println("negetive numbers");
+        }else{
+            System.out.println("its zero or not defined number-");
+        }
 
     }
     
