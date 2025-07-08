@@ -21,27 +21,34 @@ public class condition {
         //     System.out.println("its zero or not defined number-");
         // }
         //Q.3 Switch case day in week
-        int day =5;
-        switch (day) {
-            case 1:System.out.println("Sunday");
+        // int day =5;
+        // switch (day) {
+        //     case 1:System.out.println("Sunday");
                 
-                break;
-              case 2:System.out.println("monday");
+        //         break;
+        //       case 2:System.out.println("monday");
                 
-                break;
-                  case 3:System.out.println("tuesday");
+        //         break;
+        //           case 3:System.out.println("tuesday");
                 
-                break;
-                  case 4:System.out.println("wednesday");
+        //         break;
+        //           case 4:System.out.println("wednesday");
                 
-                break;
-                  case 5:System.out.println("thursday");
+        //         break;
+        //           case 5:System.out.println("thursday");
                 
-                break;
-                case 6: System.out.println("friday");
-            default:System.out.println("Saturday");
-                break;
-        }
+        //         break;
+        //         case 6: System.out.println("friday");
+        //     default:System.out.println("Saturday");
+        //         break;
+        // }
+        //Q.4 Value of X and Y
+        int a =63, b =36;
+        boolean x =(a < b )? true : false;
+        int y = (a > b) ? a:b;
+        System.out.println("x ="+x);
+        System.out.println("y ="+y);
+        
 
     }
     
