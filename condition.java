@@ -43,13 +43,19 @@ public class condition {
         //         break;
         // }
         //Q.4 Value of X and Y
-        int a =63, b =36;
-        boolean x =(a < b )? true : false;
-        int y = (a > b) ? a:b;
-        System.out.println("x ="+x);
-        System.out.println("y ="+y);
-        
+        // int a =63, b =36;
+        // boolean x =(a < b )? true : false;
+        // int y = (a > b) ? a:b;
+        // System.out.println("x ="+x);
+        // System.out.println("y ="+y);
+        //Q.5 Cheack leap year (divisible by -4,100,400)
+        int y= 2025;
+        if((y % 4 ==0)&& (y % 100 !=0)&&(y % 400 !=0)){
+            System.out.println("LEAP YEAR");
 
-    }
+        }else{
+              System.out.println("NOT LEAP YEAR");
+             }
     
+    }
 }
