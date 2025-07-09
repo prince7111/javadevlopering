@@ -56,10 +56,10 @@ public class loopjava{
         // System.out.println(n+" * "+i+" =  "+table);
         // }
         // Q.5 check What wrong in this programme
-        for(int i =0;i<=5;i++){
-            System.out.println("i = "+i);
-        }
-        System.out.println("i after the loop ===+i");// i out of the bloack of code or loops
+        // for(int i =0;i<=5;i++){
+        //     System.out.println("i = "+i);
+        // }
+        // System.out.println("i after the loop ===+i");// i out of the bloack of code or loops
         
     }
 }
