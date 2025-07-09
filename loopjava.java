@@ -39,14 +39,22 @@ public class loopjava{
         //     Scanner close;
 
         //Q.3 factorial // find factoral of A number given by users
-        System.out.println("entere your no:");
-        int n =sc.nextInt();
-        int factoral=1;
-        for(int i =1; i<=n; i++){
-            factoral =factoral*i;
-        }
-        System.out.println("factorial of no ="+factoral);
+        // System.out.println("entere your no:");
+        // int n =sc.nextInt();
+        // int factoral=1;
+        // for(int i =1; i<=n; i++){
+        //     factoral =factoral*i;
+        // }
+        // System.out.println("factorial of no ="+factoral);
         
-
+        //Q.4 Multiplication table of any number
+        System.out.println("entere your numero here:");
+        int n = sc.nextInt();
+        int table =1;
+        for(int i =1;i<=10;i++){
+        table =n*i;
+        System.out.println(n+" * "+i+" =  "+table);
+        }
+        
     }
 }
