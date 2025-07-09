@@ -48,13 +48,18 @@ public class loopjava{
         // System.out.println("factorial of no ="+factoral);
         
         //Q.4 Multiplication table of any number
-        System.out.println("entere your numero here:");
-        int n = sc.nextInt();
-        int table =1;
-        for(int i =1;i<=10;i++){
-        table =n*i;
-        System.out.println(n+" * "+i+" =  "+table);
+        // System.out.println("entere your numero here:");
+        // int n = sc.nextInt();
+        // int table =1;
+        // for(int i =1;i<=10;i++){
+        // table =n*i;
+        // System.out.println(n+" * "+i+" =  "+table);
+        // }
+        // Q.5 check What wrong in this programme
+        for(int i =0;i<=5;i++){
+            System.out.println("i = "+i);
         }
+        System.out.println("i after the loop ===+i");// i out of the bloack of code or loops
         
     }
 }
