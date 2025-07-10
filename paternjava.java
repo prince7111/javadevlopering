@@ -39,13 +39,26 @@ public class paternjava {
         //     System.out.println();
         // }
         //Q.4 : FLOYD'S TRIANGLE PATTERN
-        int counter =1;
-        for(int i =1; i<=5; i++){
-            for(int j=1; j<=i; j++){
-                System.out.print(counter+" ");
-                counter++;
+        // int counter =1;
+        // for(int i =1; i<=5; i++){
+        //     for(int j=1; j<=i; j++){
+        //         System.out.print(counter+" ");
+        //         counter++;
+        //     }
+        //     System.out.println();//successfully compleate
+        // }
+        //Q.5 : 0-1 triangle 
+        int zero =0;int one =1;
+        for(int i =1; i<=5;i++){
+            for(int j =1; j<=i; j++){
+                if((i+j)%2 != 0){
+                    System.out.print(zero);
+                }else{
+                    System.out.print(one);
+                }
             }
-            System.out.println();//successfully compleate
+            System.out.println();
+    
         }
 
       
