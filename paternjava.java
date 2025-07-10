@@ -4,6 +4,20 @@ public class paternjava {
         // pattern part I /Ch-05
         System.out.println("Hello World (V)");
         System.out.println("||JAVA programing || Chapter 05 || Pattern Basics||");
+        //Q,1 hollow ractangle pattern ***
+        int n =4;
+        for(int i =1; i<=n; i++){
+            for(int j =1; j<=n ; j++){
+                if(i==1 || j==1 || i==n || j==n){
+                System.out.print("* ");
+                }else{
+                    System.out.print("  ");
+                }
+            }
+            System.out.println();
+
+        }
+      
 
     }
     
