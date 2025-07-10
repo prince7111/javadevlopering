@@ -18,16 +18,27 @@ public class paternjava {
 
         // }
         //Q.2 INVERTED AND ROATATE HALF PYRAMID PATTERN
-        int n =4;
-        for(int i=1; i<=n; i++){
-            for(int space =n-i; space>=1; space--){ //spaces print 3,2,1,0time
-                System.out.print("  ");
-           }
-           for(int j =1;j<=i;j++){                  //coloumn me star parinting
-            System.out.print("* ");
-           }
-           System.out.println();//next Line
+        // int n =4;
+        // for(int i=1; i<=n; i++){
+        //     for(int space =n-i; space>=1; space--){ //spaces print 3,2,1,0time
+        //         System.out.print("  ");
+        //    }
+        //    for(int j =1;j<=i;j++){                  //coloumn me star parinting
+        //     System.out.print("* ");
+        //    }
+        //    System.out.println();//next Line
+        // }
+        //Q.3 Inverted half pysramid with number Pattern
+        int n =5;
+            for(int i =1; i<=n; i++){
+            int counter=1;
+            for(int j=n-i+1; j>=1; j--){
+                System.out.print(counter);
+                counter++;
+            }
+            System.out.println();
         }
+
       
 
     }
