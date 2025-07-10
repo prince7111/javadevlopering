@@ -29,14 +29,23 @@ public class paternjava {
         //    System.out.println();//next Line
         // }
         //Q.3 Inverted half pysramid with number Pattern
-        int n =5;
-            for(int i =1; i<=n; i++){
-            int counter=1;
-            for(int j=n-i+1; j>=1; j--){
-                System.out.print(counter);
+        // int n =5;
+        //     for(int i =1; i<=n; i++){
+        //     int counter=1;
+        //     for(int j=n-i+1; j>=1; j--){
+        //         System.out.print(counter);
+        //         counter++;
+        //     }
+        //     System.out.println();
+        // }
+        //Q.4 : FLOYD'S TRIANGLE PATTERN
+        int counter =1;
+        for(int i =1; i<=5; i++){
+            for(int j=1; j<=i; j++){
+                System.out.print(counter+" ");
                 counter++;
             }
-            System.out.println();
+            System.out.println();//successfully compleate
         }
 
       
