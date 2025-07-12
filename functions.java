@@ -32,11 +32,24 @@ public class functions {
     }
 
     
-    
+    //Q.4 read &code  excersize  own 
+    //
+    public static void sumOfInt(int n){
+        int original = n;
+        int soi = 0;
+        while (n>0) {
+            int lastDigit = n % 10;
+            soi = soi + lastDigit;
+            n = n/10;
+            
+        }
+        System.out.println("the sum of "+original + "= "+soi);
+    }
     public static void main(String []args) {
+        //Q.5 write a java method to comute the sum of the digit in an integer
+        sumOfInt(121);
      
-         //Q.3 check if number is palindrome or not
-          System.out.println(isPalindrome(121));
+     
 
 
 
