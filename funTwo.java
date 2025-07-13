@@ -38,8 +38,25 @@ public class funTwo {
 
         }
     }
+    //Q.3 Hollow Rhombus 
+    public static void holRhomb(int n){
+    for(int i =1; i<=n; i++){
+        for(int j =n-i; j>=1;j--){
+            System.out.print(" ");
+        }
+        for(int k =1; k<=n; k++){
+            if(i==1 ||i==n || k ==n||k==1){ 
+            System.out.print("*");
+            }else{
+                System.out.print(" ");
+            }
+        }
+        System.out.println();
+    }
+    }
     public static void main(String args[]){
-       DiomondPat(5);
+        holRhomb(5);
+    
   
      
         
