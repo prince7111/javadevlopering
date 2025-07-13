@@ -72,9 +72,41 @@ public class funTwo {
     }
 
 
-    
+    //Q.1 Butterfly pattern
+    public static void butterflyPattern(int n){
+        for(int i =1;i<=n;i++){ //first half
+            for(int j =1; j<=i; j++){
+                System.out.print(" *");
+            }
+            for(int k =1;k<=2*(n-i); k++){
+                System.out.print("  ");
+            }
+            for(int l =1;l <=i;l++){
+                System.out.print(" *");
+            }
+            System.out.println();
+
+        }
+        //Second Half
+                for(int i =n; i>=1;i--){ //first half
+            for(int j =1; j<=i; j++){
+                System.out.print(" *");
+            }
+            for(int k =1;k<=2*(n-i); k++){
+                System.out.print("  ");
+            }
+            for(int l =1;l <=i;l++){
+                System.out.print(" *");
+            }
+            System.out.println();
+
+        }
+
+    }
     public static void main(String args[]){
-        soliddRho(5);
+        butterflyPattern(4);
+        
+       
     
   
      
