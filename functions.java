@@ -47,7 +47,7 @@ public class functions {
     }
     public static void main(String []args) {
         //Q.5 write a java method to comute the sum of the digit in an integer
-        sumOfInt(121);
+       // sumOfInt(121);
      
      
 
